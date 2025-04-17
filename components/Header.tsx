@@ -1,7 +1,7 @@
 import Navigation from './Navigation'
-import Link from 'next/link'
-// import DonateButton from './DonateButton'
-import ImageLoader from '../components/ImageLoader'; // Adjust the path as necessary
+// import Link from 'next/link'
+// // import DonateButton from './DonateButton'
+// import ImageLoader from '../components/ImageLoader'; // Adjust the path as necessary
 
 export default function Header() {
   return (

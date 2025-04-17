@@ -11,14 +11,14 @@ import news4 from '@/public/medicine.png';
 
 import newsData from './newsData.json';
 
-interface NewsItem {
-  category: string;
-  region: string;
-  title: string;
-  date: string;
-  imageUrl: string;
-  url: string;
-}
+// interface NewsItem {
+//   category: string;
+//   region: string;
+//   title: string;
+//   date: string;
+//   imageUrl: string;
+//   url: string;
+// }
 
 const newsImages = [news1, news2, news3, news4];
 

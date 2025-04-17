@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react';
-import ImageLoader from '@/components/ImageLoader';
+// import ImageLoader from '@/components/ImageLoader';
 
 import banner from '../../public/banner-about.png';
 

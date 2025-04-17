@@ -6,12 +6,12 @@ import Image from 'next/image';
 import ImageLoader from '@/components/ImageLoader'; // Adjust the path as necessary
 
 
-import policy1 from '@/public/education.png';
-import policy2 from '@/public/budget.png';
-import policy3 from '@/public/health.png';
-import policy4 from '../../public/court.png';
+import policy1 from '@/public/school.png';
+import policy2 from '@/public/school.png';
+import policy3 from '@/public/school.png';
+// import policy4 from '../../public/school.png';
 
-const newsImages = [policy1, policy2, policy3, policy4];
+const newsImages = [policy1, policy2, policy3];
 const NewsList = () => {
   return (
     <div className="min-h-screen bg-white py-12 px-8">

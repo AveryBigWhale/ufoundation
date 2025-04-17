@@ -1,34 +1,34 @@
 import { FC } from 'react'
 
-interface DonateOption {
-  amount: number
-  title: string
-  description: string
-}
+// interface DonateOption {
+//   amount: number
+//   title: string
+//   description: string
+// }
 
 const DonateSection: FC = () => {
-  const donateOptions: DonateOption[] = [
-    {
-      amount: 2000,
-      title: "「人權，沒有人可以從你身上奪走」",
-      description: "研究資源深入當地(如阿富汗)，持續監督並揭露不人道行為"
-    },
-    {
-      amount: 1500,
-      title: "「成為你想看到的改變」",
-      description: "向各國政府施壓，以終止侵害暴民人權的行為"
-    },
-    {
-      amount: 800,
-      title: "「每個一個地方的非正義是每個正義的威脅」",
-      description: "給一個家，就援救出的下一個明天"
-    },
-    {
-      amount: 500,
-      title: "「一個孩子，一位老師，一本書，一支筆可以改變世界」",
-      description: "發起全球倡議活動，引起國際關注並凝聚力量"
-    }
-  ]
+//   const donateOptions: DonateOption[] = [
+//     {
+//       amount: 2000,
+//       title: "「人權，沒有人可以從你身上奪走」",
+//       description: "研究資源深入當地(如阿富汗)，持續監督並揭露不人道行為"
+//     },
+//     {
+//       amount: 1500,
+//       title: "「成為你想看到的改變」",
+//       description: "向各國政府施壓，以終止侵害暴民人權的行為"
+//     },
+//     {
+//       amount: 800,
+//       title: "「每個一個地方的非正義是每個正義的威脅」",
+//       description: "給一個家，就援救出的下一個明天"
+//     },
+//     {
+//       amount: 500,
+//       title: "「一個孩子，一位老師，一本書，一支筆可以改變世界」",
+//       description: "發起全球倡議活動，引起國際關注並凝聚力量"
+//     }
+//   ]
 
   return (
     <section className="py-20 bg-white">

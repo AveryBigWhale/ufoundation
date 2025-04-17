@@ -3,7 +3,7 @@
 
 import React, { useRef, useEffect  } from 'react';
 import newsData from '@/app/news/newsData.json';
-import policyData from '@/app/policy/policyData.json';
+// import policyData from '@/app/policy/policyData.json';
 import Image from 'next/image';
 import ImageLoader from './ImageLoader'; // Adjust the path as necessary
 import news1 from '../public/gala.png';
@@ -25,11 +25,10 @@ type Props = {
   title: string
 };
 
-const NewsDetail = ({ id, title }: Props) => {
+const NewsDetail = ({ id, }: Props) => {
   const scrollContainerRef = useRef(null);
 
-  const newsItem = (title === 'policy' ? policyData : newsData)
-  .find((news) => news.id === parseInt(id, 10));
+  const newsItem = newsData.find((news) => news.id === parseInt(id, 10));
 
   const Images = newsImages
   // (title === 'policy' ? policyImages : newsImages)

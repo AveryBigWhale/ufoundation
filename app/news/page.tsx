@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-// import World from '@/public/world.png'
+import World from '@/public/world.png'
 import news1 from '@/public/gala.png';
 import news2 from '@/public/school.png';
 import news3 from '@/public/lecture.png';
@@ -30,7 +30,7 @@ export default function NewsPage() {
       <section className="relative h-[50vh] flex items-center bg-gray-900">
         <div className="absolute inset-0">
           <Image
-            src="/world.png"
+            src={World}
             alt="News Hero"
             fill
             className="object-cover opacity-50"

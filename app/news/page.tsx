@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import World from '@/public/world.png'
+import world from '@/public/world.png'
 import news1 from '@/public/gala.png';
 import news2 from '@/public/school.png';
 import news3 from '@/public/lecture.png';
@@ -30,7 +30,7 @@ export default function NewsPage() {
       <section className="relative h-[50vh] flex items-center bg-gray-900">
         <div className="absolute inset-0">
           <Image
-            src={World}
+            src={world}
             alt="News Hero"
             fill
             className="object-cover opacity-50"
@@ -41,7 +41,7 @@ export default function NewsPage() {
             掌握全球人權新聞及動態
           </h1>
           <p className="text-xl text-white/80 max-w-2xl">
-            探索我們持續更新的新聞、研究報告、專欄及影音...等消息。
+            探索我們持續更新的新聞、研究報告、專欄及影音
           </p>
         </div>
       </section>

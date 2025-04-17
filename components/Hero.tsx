@@ -1,6 +1,6 @@
 // import DonateButton from './DonateButton'
-import banner from "../public/banner.png"
-import Image from "next/image"
+// import banner from "../public/banner.png"
+// import Image from "next/image"
 import ImageLoader from './ImageLoader'; 
 
 export default function Hero() {

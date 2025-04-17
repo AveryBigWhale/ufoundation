@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Organization Info */}
-          <div className="space-y-4 flex flex-col items-center text-center">
+          <div className="space-y-4 flex flex-col items-center ">
             <h3 className="text-xl font-bold">U Foundation</h3>
             <p className="text-gray-400">
               支持 U 人社群，創造公平正義的世界

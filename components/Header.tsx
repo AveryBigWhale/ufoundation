@@ -6,7 +6,8 @@ import ImageLoader from '../components/ImageLoader'; // Adjust the path as neces
 export default function Header() {
   return (
     <header className="fixed w-full bg-ufoundationLightMain z-50">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-4 py-4 ">
+        
         
         <Navigation />
         {/* <DonateButton /> */}

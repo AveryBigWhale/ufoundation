@@ -36,15 +36,44 @@ const DonateSection: FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Left Column */}
           <div className="space-y-8">
-            <h2 className="text-3xl font-bold">塔利班禁止女孩接受教育</h2>
+            <h2 className="text-3xl font-bold">「我們不是錯誤的產物。」——U人少女 Rina 的心聲，正在改寫未來的座標</h2>
             <div className="prose max-w-none">
-              <p>「女兒不會再餓肚子了。」35歲的 Khorsheed*，因經濟危機，將13歲的女兒嫁給了30歲的鄰居，以換取約2萬台幣的「聘金」。</p>
-              <p>自2021年8月塔利班控制阿富汗以來，持續侵犯婦女和女孩的受教權、工作權和行動自由權，戰爭及不斷惡化的貧窮，讓阿富汗的童婚，早婚或強迫婚姻率快速增加。</p>
+            
+              <p>「我只是想像其他人一樣去學校，為什麼我不行？」 </p>
+              <br />
+              <p>16歲的 Rina 是 exhibit O 疫苗接種世代中的一員。由於基因重組造成外觀差異，她與其他 U人 一樣，被標註為「不穩定因子」，多次申請入學皆遭拒。這些決定並非基於學術能力，而是出於對「社會風險」的推論與偏見。 </p>
+              <br />
+              <p>自 U人 被制度劃為「特殊群體」以來，他們的教育選擇、職涯發展、居住自由與日常行動皆受到不同程度的限制與監管。在潮間黨政策主導下，許多原設為補償與保護的機構，反而逐漸演變為收編與隔離的手段。</p>
+              <br />
+              <p>然而，U人 並非沉默的群體。他們正在發聲、組織、學習。他們拒絕被定義為錯誤，更不接受以「補償」之名交換沉默。 </p>
+              <br />
+              <p>「我們成了這場科技奇蹟的副作用。可這不是我們的錯，也不是我們的終點。」
+                <br></br>
+              ——U人 教師 Yuto，現為社區教育行動發起人之一。</p>
             </div>
           </div>
-          
+          <div className="space-y-8">
+            <h2 className="text-3xl font-bold">重新想像公平，而非遺憾的修補</h2>
+            <div className="prose max-w-none">
+            
+              <p>國際U人援助聯盟於2130年啟動「無聲者之聲」行動，目標不只是伸張正義，而是推動具體改革：恢復U人公民權、保障教育自由、反對基因歧視立法缺口，並要求 Current Effect 與潮間黨政府面對歷史責任。
+              </p>
+              <p>我們不募捐同情，我們號召關注與行動。每一筆支持，不是施捨，而是站在歷史的正確一邊。</p>
+              <p>讓下一代的 Rina，不再需要為了上學而辯護自己的存在。</p>
+            </div>
+          </div>
+          {/* <div className="space-y-8">
+            <h2 className="text-3xl font-bold">請為U人伸出你的援手</h2>
+            <div className="prose max-w-none">
+            
+            <p>國際U人援助聯盟自2138年發起「無聲者之聲」行動，持續倡議全球認可U人基本人權，並敦促 current effect 企業及潮間黨政府承擔歷史責任。唯有國際社會共同關注，方能迫使主流體制正視這群被遺忘的孩子。</p>
+
+            <p>你的一筆捐款，或許就能讓下一位U人孩子走進教室、擁有名字、擁有未來。</p>
+            </div>
+          </div>
+           */}
           {/* Right Column */}
-          <div className="bg-gray-50 p-8 rounded-lg">
+          {/* <div className="bg-gray-50 p-8 rounded-lg">
             <h3 className="text-2xl font-bold mb-6">請對阿富汗女性伸出你的援手</h3>
             <div className="space-y-4">
               {donateOptions.map((option, index) => (
@@ -62,7 +91,7 @@ const DonateSection: FC = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

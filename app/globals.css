@@ -1,17 +1,30 @@
 @import "tailwindcss";
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 255, 255, 255;
+  --primary-color: #4CAF50;
+  --secondary-color: #8BC34A;
 }
 
+@theme {
+  --color-ufoundationDarkMain: #4CAF50;
+  --color-ufoundationLightMain: #8BC34A;
+  --color-customRed: #EE551D;
+  /* --color-customPurple: #290484; */
+}
+
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
+  @apply text-gray-800;
+}
+
+.container {
+  @apply max-w-7xl mx-auto;
+}
+
+section {
+  @apply scroll-mt-20;
 }

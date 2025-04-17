@@ -1,14 +1,17 @@
 // import DonateButton from './DonateButton'
-// import banner from "../public/banner.png"
+import banner from "../public/banner.png"
 // import Image from "next/image"
 import ImageLoader from './ImageLoader'; 
 
 export default function Hero() {
   return (
-    <section style={{
-        backgroundImage: `url(${ImageLoader({ src: '/banner.png' })})`
+    <section 
+       style={{
+         backgroundImage: `url(${banner.src})`,
+         backgroundSize: 'cover',
+         backgroundPosition: 'center',
        }} 
-       className="min-h-screen flex items-center justify-center bg-gray-50"
+       className="min-h-screen flex items-center justify-center bg-gray-50 "
     >
       <div className="container mx-auto px-4 text-center">
         <h1 className="text-6xl font-bold mb-6">

@@ -1,13 +1,14 @@
 "use client"
 
 import { useState } from 'react';
+import Link from 'next/link'
+import ImageLoader from '../components/ImageLoader';
 
 export default function Navigation() {
     const navItems = [
-      { name: 'About Us', href: '#about' },
-      { name: 'Projects', href: '#projects' },
-      { name: 'News', href: '#news' },
-      { name: 'Contact', href: '#contact' },
+        { name: '關於我們', href: '/about' },
+        { name: '專案計畫', href: '/projects' },
+        { name: '最新消息', href: '/news' },
     ]
     const [isOpen, setIsOpen] = useState(false);
 
@@ -17,7 +18,20 @@ export default function Navigation() {
   
     return (
     <header className="relative bg-ufoundationLightMain">
+        <div className={`flex items-center ${isOpen ? 'hidden' : ''}`}>
+            <div className="mr-2 relative w-16 h-16 rounded-full overflow-hidden shadow-lg"
+                style={{
+                backgroundImage: `url(${ImageLoader({ src: '/icon-1.svg' })})`,
+                backgroundSize: 'cover',
+                // // backgroundSize: `${windowSize.width}px ${windowSize.height}px`,
+                backgroundPosition: 'center',
+            }} />
+            <Link href="/" className="text-2xl font-bold text-primary">
+                    U Foundation
+            </Link>
+        </div>
         <nav>
+                
             <ul className="flex space-x-6 bg-ufoundationLightMain">
             {navItems.map((item) => (
                 <li key={item.name}>

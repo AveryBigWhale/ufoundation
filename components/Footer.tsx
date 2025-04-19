@@ -23,11 +23,11 @@ export default function Footer() {
                   關於我們
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/projects" className="text-gray-400 hover:text-white transition-colors">
                   專案計畫
                 </Link>
-              </li>
+              </li> */}
               
               <li>
                 <Link href="/news" className="text-gray-400 hover:text-white transition-colors">
